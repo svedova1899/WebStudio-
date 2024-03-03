@@ -1,0 +1,37 @@
+:root {
+  --logo-color: #000000;
+  --nav-color: #2196f3;
+  --header-nav: #212121;
+  --tel-color: #757575;
+  --header-title: #ffffff;
+  --background: #f5f4fa;
+  --program-color: #afb1b8;
+  --footer-background: #2f303a;
+  --footer-tel: rgba(255, 255, 255, 0.6);
+}
+body {
+  margin: 0 auto;
+  width: 1600px;
+}
+ul{
+    list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header-span {
+  font-family: "Raleway", sans-serif;
+  color: var(--nav-color);
+  font-size: 26px;
+}
+.header-span2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+}
+.header-item{
+    font-family: "Roboto", sans-serif;
+    color: var(--header-nav);
+}
+.header-item:hover{
+    color: var(--nav-color);
+}
