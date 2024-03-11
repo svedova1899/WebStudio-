@@ -117,3 +117,16 @@ a {
   gap: 66px;
   margin-left: 180px;
 }
+.What-we-do-title{
+  color: var(--header-nav);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 108px;
+}
+.What-we-do-list{
+  display: flex;
+  gap: 30px;
+  margin-left: 180px;
+  margin-top: 60px;
+}
