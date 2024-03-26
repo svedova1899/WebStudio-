@@ -117,20 +117,33 @@ a {
   gap: 66px;
   margin-left: 180px;
 }
-.What-we-do-title{
+.what-we-do-title{
   color: var(--header-nav);
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   text-align: center;
   margin-top: 108px;
 }
-.What-we-do-list{
+.what-we-do-list{
   display: flex;
   gap: 30px;
   margin-left: 180px;
   margin-top: 60px;
 }
-.our-team-section{
+.people-team{
   background-color: var(--background);
-  
+}
+.team-caption{
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 94px;
+  margin-top: 94px;
+}
+.info-team{
+  background-color: var(--header-title);
+  width: 270px;
+  height: 428px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
