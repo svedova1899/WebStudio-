@@ -50,7 +50,29 @@
   <main class="main">
     <section class="menu-section">
       <h1 class="menu-title">Ефективні рішення для<br> вашого бізнесу</h1>
-      <button class="menu-button text-button">Замовити послугу</button>
+    <button class="menu-button text-button" data-modal-open>Замовити послугу</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn" data-modal-close><img src="photo/close-model.svg" alt="close" class="modal-img"></button>
+            <h2 class="title-modal">Залиште свої дані, ми вам передзвонимо</h2>
+            <form action="">
+              <label>
+                Ім’я
+                <input type='text' name='firstname'>
+              </label>
+              <label>
+                Телефон
+                <input type="phone" name="phone">
+              </label>
+              <label>
+                Пошта
+                <input type="email" name="email" required />
+              </label>
+              <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="modal.js"></script>
     </section>
     <section class="attention-to-detail-section">
       <ul class="attention-to-detail-list">

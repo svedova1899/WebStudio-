@@ -8,7 +8,7 @@
   --program-color: #afb1b8;
   --footer-background: #2f303a;
   --footer-tel: rgba(255, 255, 255, 0.6);
-  --icon-footer: rgba(255, 255, 255, 0.10);
+  --icon-footer: rgba(255, 255, 255, 0.1);
 }
 body {
   margin: 0 auto;
@@ -46,7 +46,7 @@ a {
 .nav-telephone:hover {
   color: var(--nav-color);
 }
-.header-logo-div{
+.header-logo-div {
   margin-top: 24px;
 }
 .header-logo {
@@ -192,93 +192,143 @@ a {
   height: 92px;
   margin-bottom: 94px;
 }
-.regular-clients-img{
+.regular-clients-img {
   padding-left: 64px;
   padding-top: 23px;
 }
-.regular-clients-img2{
+.regular-clients-img2 {
   padding-left: 65px;
   padding-top: 19px;
 }
-.regular-clients-img3{
+.regular-clients-img3 {
   padding-left: 62px;
   padding-top: 25px;
 }
-.regular-clients-img4{
+.regular-clients-img4 {
   padding-left: 43px;
   padding-top: 25px;
 }
-.regular-clients-img5{
+.regular-clients-img5 {
   padding-left: 54px;
   padding-top: 23px;
 }
-.regular-clients-img6{
+.regular-clients-img6 {
   padding-left: 38px;
   padding-top: 23px;
 }
-.regular-clients-list{
+.regular-clients-list {
   display: flex;
   gap: 30px;
   margin-left: 185px;
   margin-top: 50px;
 }
 /* ---------------footer--------------- */
-.footer{
+.footer {
   background-color: var(--footer-background);
   width: 1600px;
   height: 252px;
 }
-.logo-footer{
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   color: var(--header-title);
   margin-left: 225px;
   padding-top: 60px;
 }
-.footer_address{
+.footer_address {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: var(--header-title);
 }
-.mail_addres{
+.mail_addres {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: var(--footer-tel);
 }
-.telephone_addres{
+.telephone_addres {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: var(--footer-tel);
 }
-.footer-list{
+.footer-list {
   display: block;
   gap: 9px;
   margin-left: 188px;
   margin-top: 20px;
 }
-.footer_caption{
+.footer_caption {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: var(--header-title);
   margin-left: 516px;
   margin-top: -113px;
 }
-.footer_list_icon{
+.footer_list_icon {
   display: flex;
   gap: 10px;
   margin-left: 473px;
   margin-top: 20px;
 }
-.footer_item_icon{
+.footer_item_icon {
   background-color: var(--icon-footer);
   border-radius: 150px;
 }
-.footer_item_icon:hover{
+.footer_item_icon:hover {
   background-color: var(--nav-color);
 }
-.footer-img{
- padding: 12px 14px 12px 14px;
+.footer-img {
+  padding: 12px 14px 12px 14px;
 }
-.wrapper_footer_logo{
+.wrapper_footer_logo {
   padding-top: 60px;
+}
+/* --------------model---------------- */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 528px;
+  min-height: 581px;
+  padding: 15px;
+  background-color: var(--header-title);
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.btn{
+  background-color: var(--header-title);
+  border-radius: 150px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 490px;
+  margin-top: -5px;
+}
+.modal-img{
+padding: 7px 3px 5px 3px;
+}
+.title-modal{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2px;
 }
