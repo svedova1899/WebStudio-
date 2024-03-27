@@ -25,7 +25,9 @@
 <body>
   <header class="header">
     <div class="nav-section">
-      <a href="index.html" class="header-logo"><span class="header-span">Web</span>Studio</a>
+      <div class="header-logo-div">
+        <a href="index.html" class="header-logo"><span class="header-span">Web</span>Studio</a>
+      </div>
       <nav class="header-nav">
         <ul class="header-list">
           <li class="header-item">Студія</li>
@@ -34,11 +36,11 @@
         </ul>
         <ul class="nav-list">
           <li class="nav-item">
-            <img src="photo/1.svg" alt="envelope" class="nav-svg">
+            <img src="photo/envelope-grey.svg" alt="envelope" class="nav-svg">
             <a href="mailto:info@devstudio.com" class="nav-mail">info@devstudio.com</a>
           </li>
           <li class="nav-item">
-            <img src="photo/2.svg" alt="vector">
+            <img src="photo/2.svg" alt="vector" class="nav-svg">
             <a href="tel:+380961111111" class="nav-telephone">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -95,10 +97,10 @@
           <h3 class="name-people">Ігор Дем'яненко</h3>
           <p class="paragraph-people">Product Designer</p>
           <div class="wrapper_people_icon">
-            <img src="photo/instagram.svg" alt="instagram">
-            <img src="photo/twitter.svg" alt="twitter">
-            <img src="photo/facebook.svg" alt="facebook">
-            <img src="photo/linkedin.svg" alt="linkedIn">
+            <a href="index.html"><img src="photo/instagram.svg" alt="instagram"></a>
+            <a href="index.html"><img src="photo/twitter.svg" alt="twitter"></a>
+            <a href="index.html"><img src="photo/facebook.svg" alt="facebook"></a>
+            <a href="index.html"><img src="photo/linkedin.svg" alt="linkedIn"></a>
           </div>
         </li>
         <li class="info-team">
@@ -106,10 +108,10 @@
           <h3 class="name-people">Ольга Рєпіна</h3>
           <p class="paragraph-people">Frontend Developer</p>
           <div class="wrapper_people_icon">
-            <img src="photo/instagram.svg" alt="instagram">
-            <img src="photo/twitter.svg" alt="twitter">
-            <img src="photo/facebook.svg" alt="facebook">
-            <img src="photo/linkedin.svg" alt="linkedIn">
+            <a href="index.html"><img src="photo/instagram.svg" alt="instagram"></a>
+            <a href="index.html"><img src="photo/twitter.svg" alt="twitter"></a>
+            <a href="index.html"><img src="photo/facebook.svg" alt="facebook"></a>
+            <a href="index.html"><img src="photo/linkedin.svg" alt="linkedIn"></a>
           </div>
         </li>
         <li class="info-team">
@@ -117,10 +119,10 @@
           <h3 class="name-people">Микола Тарасов</h3>
           <p class="paragraph-people">Marketing</p>
           <div class="wrapper_people_icon">
-            <img src="photo/instagram.svg" alt="instagram">
-            <img src="photo/twitter.svg" alt="twitter">
-            <img src="photo/facebook.svg" alt="facebook">
-            <img src="photo/linkedin.svg" alt="linkedIn">
+            <a href="index.html"><img src="photo/instagram.svg" alt="instagram"></a>
+            <a href="index.html"><img src="photo/twitter.svg" alt="twitter"></a>
+            <a href="index.html"><img src="photo/facebook.svg" alt="facebook"></a>
+            <a href="index.html"><img src="photo/linkedin.svg" alt="linkedIn"></a>
           </div>
         </li>
         <li class="info-team">
@@ -128,10 +130,10 @@
           <h3 class="name-people">Михайло Єрмаков</h3>
           <p class="paragraph-people">UI Designer</p>
           <div class="wrapper_people_icon">
-            <img src="photo/instagram.svg" alt="instagram">
-            <img src="photo/twitter.svg" alt="twitter">
-            <img src="photo/facebook.svg" alt="facebook">
-            <img src="photo/linkedin.svg" alt="linkedIn">
+            <a href="index.html"><img src="photo/instagram.svg" alt="instagram"></a>
+            <a href="index.html"><img src="photo/twitter.svg" alt="twitter"></a>
+            <a href="index.html"><img src="photo/facebook.svg" alt="facebook"></a>
+            <a href="index.html"><img src="photo/linkedin.svg" alt="linkedIn"></a>
           </div>
         </li>
       </ul>
@@ -158,32 +160,38 @@
     <div class="wrapper_footer_logo">
       <a href="index.html" class="logo-footer"><span class="header-span">Web</span>Studio</a>
     </div>
-    <address class="footer_address">
-      <br>м. Київ, пр-т Лесі Українки, 26
-    </address>
-    <address class="addres_mail">
-      <a href="mailto:info@devstudio.com" class="mail_addres">info@devstudio.com</a>
-    </address>
-    <address class="addres_telephone">
-      <a href="tel:+380961111111" class="telephone_addres">+38 096 111 11 11</a>
-    </address>
-    </div>
-    <div class="container">
-      <h3 class="footer_caption">приєднуйтесь</h3>
-      <ul class="footer_list_icon flex">
-        <li class="footer_item_icon">
-          <img src="photo/instagram.svg" alt="instagram">
-        </li>
-        <li class="footer_item_icon">
-          <img src="photo/twitter.svg" alt="twitter">
-        </li>
-        <li class="footer_item_icon">
-          <img src="photo/facebook.svg" alt="facebook">
-        </li>
-        <li class="footer_item_icon">
-          <img src="photo/linkedin.svg" alt="LinkedIn">
-        </li>
-      </ul>
+    <ul class="footer-list">
+      <li class="footer-item">
+        <address class="footer_address">
+          м. Київ, пр-т Лесі Українки, 26
+        </address>
+      </li>
+      <li class="footer-item">
+        <address class="addres_mail">
+          <a href="mailto:info@devstudio.com" class="mail_addres">info@devstudio.com</a>
+        </address>
+      </li>
+      <li class="footer-item">
+        <address class="addres_telephone">
+          <a href="tel:+380961111111" class="telephone_addres">+38 096 111 11 11</a>
+        </address>
+      </li>
+    </ul>
+    <h3 class="footer_caption">приєднуйтесь</h3>
+    <ul class="footer_list_icon">
+      <li class="footer_item_icon">
+        <a href="index.html"><img src="photo/instagram-white.svg" alt="instagram" class="footer-img"></a>
+      </li>
+      <li class="footer_item_icon">
+        <a href="index.html"><img src="photo/twitter-white.svg" alt="twitter" class="footer-img"></a>
+      </li>
+      <li class="footer_item_icon">
+        <a href="index.html"><img src="photo/facebook-white.svg" alt="facebook" class="footer-img"></a>
+      </li>
+      <li class="footer_item_icon">
+        <a href="index.html"><img src="photo/linkedin-white.svg" alt="LinkedIn" class="footer-img"></a>
+      </li>
+    </ul>
   </footer>
 </body>
 
