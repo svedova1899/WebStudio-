@@ -50,34 +50,38 @@
   <main class="main">
     <section class="menu-section">
       <h1 class="menu-title">Ефективні рішення для<br> вашого бізнесу</h1>
-    <button class="menu-button text-button" data-modal-open>Замовити послугу</button>
-    <div class="backdrop is-hidden" data-modal>
+      <button class="menu-button text-button" data-modal-open>Замовити послугу</button>
+      <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="btn" data-modal-close><img src="photo/close-model.svg" alt="close" class="modal-img"></button>
-            <h2 class="title-modal">Залиште свої дані, ми вам передзвонимо</h2>
-            <form action="">
-              <label>
-                Ім’я
-                <input type='text' name='firstname'>
-              </label>
-              <label>
-                Телефон
-                <input type="phone" name="phone">
-              </label>
-              <label>
-                Пошта
-                <input type="email" name="email" required />
-              </label>
-              <button type="submit">Submit</button>
-            </form>
+          <button class="btn" data-modal-close><img src="photo/close-model.svg" alt="close" class="modal-img"></button>
+          <h2 class="title-modal">Залиште свої дані, ми вам передзвонимо</h2>
+          <form action="action_page" class="action-page-form">
+            <div>
+              <label for="name" class="action-page-label">Ім'я</label>
+              <input for="name" class="action-page-input"></input>
+
+              <label for="telephone" class="action-page-label">Телефон</label>
+              <input for="telephone" class="action-page-input"></input>
+
+              <label for="email" class="action-page-label">Пошта</label>
+              <input for="email" class="action-page-input"></input>
+
+              <label for="comment" class="action-page-label">Коментар</label>
+              <textarea required="" name="textarea" id="textarea" cols="50" rows="10"></textarea>
+            </div>
+            <label class="cl-checkbox">
+              <p class="paragraph_checkbox">Погоджуюся з розсилкою та приймаю <a class="modal-link"
+                  href="index.html">Умови договору</a></p>
+              <input type="checkbox" class="action-page-input">
+            </label>
+              <button class="btn-modal" type="submit">Відправити</button>
         </div>
-    </div>
-  </section>
-  <section class="attention-to-detail-section">
-    <ul class="attention-to-detail-list">
-      <li class="attention-to-detail-item"><img src="photo/4.png" alt="antenna" class="attention-to-detail-img"></li>
-      <li class="attention-to-detail-item"><img src="photo/7.png" alt="clock" class="attention-to-detail-img">
-      </li>
+    </section>
+    <section class="attention-to-detail-section">
+      <ul class="attention-to-detail-list">
+        <li class="attention-to-detail-item"><img src="photo/4.png" alt="antenna" class="attention-to-detail-img"></li>
+        <li class="attention-to-detail-item"><img src="photo/7.png" alt="clock" class="attention-to-detail-img">
+        </li>
         <li class="attention-to-detail-item"><img src="photo/8.png" alt="diagram" class="attention-to-detail-img"></li>
         <li class="attention-to-detail-item"><img src="photo/5.png" alt="astronaut" class="attention-to-detail-img">
         </li>
@@ -166,16 +170,16 @@
             class="regular-clients-img"></li>
         <li class="regular-clients-item"><img src="photo/taglinehere.svg" alt="company" width="40"
             class="regular-clients-img2"></li>
-            <li class="regular-clients-item"><img src="photo/company.svg" alt="company" width="43.46"
+        <li class="regular-clients-item"><img src="photo/company.svg" alt="company" width="43.46"
             class="regular-clients-img3"></li>
         <li class="regular-clients-item"><img src="photo/fosterpeters.svg" alt="company" width="84.44"
             class="regular-clients-img4"></li>
-            <li class="regular-clients-item"><img src="photo/brand.svg" alt="company" width="62.54"
-              class="regular-clients-img5"></li>
-              <li class="regular-clients-item"><img src="photo/tagline.svg" alt="company" width="93.79"
-                class="regular-clients-img6"></li>
-              </ul>
-            </section>
+        <li class="regular-clients-item"><img src="photo/brand.svg" alt="company" width="62.54"
+            class="regular-clients-img5"></li>
+        <li class="regular-clients-item"><img src="photo/tagline.svg" alt="company" width="93.79"
+            class="regular-clients-img6"></li>
+      </ul>
+    </section>
   </main>
   <footer class="footer">
     <div class="wrapper_footer_logo">
